@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cadastro-prestador
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'    
+iart-config-server:
+  name: "gustavo"
+  lastname: "santos - prod"    
